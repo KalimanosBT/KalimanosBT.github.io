@@ -1,0 +1,163 @@
+/* classstyle.css - a style sheet used for class web pages
+   Hayden So (1/2008) */
+body {
+    background-color: #FFFFFF;
+    font-family: verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: #000000;
+}
+
+table {
+    font-family: verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+table#main {
+    background-color:#FFFFFF;
+    border: none;
+    width: 100%;
+}
+
+tr.titlerow {
+    background-color:#E77F02;
+}
+
+tr.titlerow td {
+    vertical-align: "top";
+    color: #67767a;
+    padding: 10px;
+}
+
+td#classnum {
+    text-align: left;
+    width: 150px;
+}
+
+td#classtitle {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+td#dept {
+	text-align: right;
+	width: 250px;
+}
+
+.text1 {
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: #67767a;
+}
+
+
+.text3 {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: normal;
+	color: #67767a;
+}
+
+.text4 {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: normal;
+	color: #67767a;
+}
+
+td.menu {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #67767a;
+	text-align: center;
+}
+
+a.menu:link {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.menu:visited {
+	font-family: verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.menu:hover {
+	font-family: verdana;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+td.newsdate {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	width: 150px;
+	color: #000000;
+	vertical-align: top;
+}
+
+table.cal {
+    background-color:#FFFFFF;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table.cal td { 
+  padding: 5px 10px 5px 10px;
+}
+
+td.calfirst {
+    background-color: #E77F02;
+    font-weight: bold;
+}
+
+td.caldate1 {
+    vertical-align: top;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    width: 100px;
+}
+
+td.calitem1 {
+    vertical-align: top;
+    background-color: #FFFFFF;
+}
+
+td.caldate2 {
+    vertical-align: top;
+    background-color: #e7ba84;
+    font-weight: bold;
+}
+
+td.calitem2 {
+    vertical-align: top;
+    background-color: #e7ba84;
+}
+
+
+h1 {
+    color: #E77F02;
+}
+
+table#info td {
+    padding : 2px;
+}
